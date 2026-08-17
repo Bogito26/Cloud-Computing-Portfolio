@@ -2,15 +2,21 @@
 
 ## Linux Environment
 
-> **Important:** Replace the placeholder values below with the actual output from your KillerCoda Ubuntu terminal. These values should come from your own environment.
+The following information was collected from the Ubuntu 24.04.4 LTS environment running in the KillerCoda Playground.
 
 | Information | Result |
 |---|---|
-| Linux Distribution | `TO BE RECORDED FROM KILLERCODA` |
-| Kernel Version | `TO BE RECORDED FROM KILLERCODA` |
-| CPU Information | `TO BE RECORDED FROM KILLERCODA` |
-| Total Memory | `TO BE RECORDED FROM KILLERCODA` |
-| Available Disk Space | `TO BE RECORDED FROM KILLERCODA` |
+| Linux Distribution | **Ubuntu 24.04.4 LTS (Noble Numbat)** |
+| Kernel Version | **6.8.0-136-generic** |
+| CPU Information | **Intel Xeon E312xx (Sandy Bridge), 2.0 GHz** |
+| CPU Cores | **1** |
+| Total Memory | **1.9 GiB** |
+| Available Memory | **1.5 GiB** |
+| Total Disk Space | **19 GB** on `/dev/vda1` |
+| Used Disk Space | **5.4 GB** |
+| Available Disk Space | **13 GB** |
+| Virtualization | **KVM** |
+| Hostname | **ubuntu** |
 
 ## Commands Used
 
@@ -20,8 +26,11 @@ uname -r
 lscpu
 free -h
 df -h
+hostname
 ```
 
 ## Evidence
 
-Add the appropriate KillerCoda terminal screenshot to the `screenshots` folder.
+A screenshot of the KillerCoda terminal showing the system information commands and their output should be uploaded to the `screenshots` folder.
+
+![KillerCoda System Information](screenshots/checkpoint-2.png)
